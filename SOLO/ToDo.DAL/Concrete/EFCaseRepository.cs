@@ -3,7 +3,7 @@ using ToDo.DAL.Abstract;
 
 namespace ToDo.DAL.Concrete
 {
-    class EFCaseRepository : ICaseRepository
+    public class EFCaseRepository : ICaseRepository
     {
         private readonly EFContext context = new EFContext();
 
@@ -25,7 +25,7 @@ namespace ToDo.DAL.Concrete
 
         public void Save()
         {
-            throw new System.NotImplementedException();
+            context.SaveChanges();
         }
 
         public Case GetById(int id)

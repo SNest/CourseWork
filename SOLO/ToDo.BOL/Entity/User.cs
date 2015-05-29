@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace ToDo.BOL.Entity
 {
@@ -15,5 +16,8 @@ namespace ToDo.BOL.Entity
         [Required]
         public string Password { get; set; }
 
+        public virtual ICollection<Event> Events { get; set; }
+        public virtual ICollection<Case> Cases { get; set; }
+        public virtual ICollection<Note> Notes { get; set; } 
     }
 }

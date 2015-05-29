@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-
-namespace ToDo.PL.Models
+﻿namespace ToDo.PL.Models
 {
     // Models returned by MeController actions.
     public class GetViewModel

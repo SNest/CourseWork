@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.Owin;
+﻿using Microsoft.Owin;
 using Owin;
+using ToDo.PL;
 
-[assembly: OwinStartup(typeof(ToDo.PL.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
 namespace ToDo.PL
 {

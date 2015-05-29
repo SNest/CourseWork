@@ -3,7 +3,7 @@ using ToDo.DAL.Abstract;
 
 namespace ToDo.DAL.Concrete
 {
-    class EFEventRepository : IEntityRepository
+    public class EFEventRepository : IEventRepository
     {
         private readonly EFContext context = new EFContext();
         public void Create(Entity e)
@@ -24,7 +24,7 @@ namespace ToDo.DAL.Concrete
 
         public void Save()
         {
-            throw new System.NotImplementedException();
+            context.SaveChanges();
         }
 
         public Case GetById(int id)

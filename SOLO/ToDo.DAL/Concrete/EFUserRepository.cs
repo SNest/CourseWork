@@ -3,9 +3,10 @@ using ToDo.DAL.Abstract;
 
 namespace ToDo.DAL.Concrete
 {
-    class EFUserRepository : IEntityRepository
+    public class EFUserRepository : IUserRepository
     {
         private readonly EFContext context = new EFContext();
+
         public void Create(Entity e)
         {
             context.Users.Add((User)e);
@@ -24,10 +25,10 @@ namespace ToDo.DAL.Concrete
 
         public void Save()
         {
-            throw new System.NotImplementedException();
+            context.SaveChanges();
         }
 
-        public BOL.Entity.Case GetById(int id)
+        public Case GetById(int id)
         {
             throw new System.NotImplementedException();
         }

@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.SL", "ToDo.SL\ToDo.SL.
 		{0B328CE6-99DE-4597-910E-4929FECF10C1} = {0B328CE6-99DE-4597-910E-4929FECF10C1}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.PL", "ToDo.PL\ToDo.PL.csproj", "{0546BCAB-4172-4596-B5ED-6B1432C7BB2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter", "Starter\Starter.csproj", "{2EB44D49-56B8-48C0-AA32-01C30C447BB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,10 @@ Global
 		{31C9D18E-0452-4DE5-88B0-44214BDC4623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31C9D18E-0452-4DE5-88B0-44214BDC4623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31C9D18E-0452-4DE5-88B0-44214BDC4623}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0546BCAB-4172-4596-B5ED-6B1432C7BB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0546BCAB-4172-4596-B5ED-6B1432C7BB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0546BCAB-4172-4596-B5ED-6B1432C7BB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0546BCAB-4172-4596-B5ED-6B1432C7BB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB44D49-56B8-48C0-AA32-01C30C447BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB44D49-56B8-48C0-AA32-01C30C447BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB44D49-56B8-48C0-AA32-01C30C447BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB44D49-56B8-48C0-AA32-01C30C447BB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

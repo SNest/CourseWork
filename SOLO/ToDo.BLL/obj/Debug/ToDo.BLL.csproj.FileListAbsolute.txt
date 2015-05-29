@@ -9,11 +9,13 @@ c:\Users\Tanya\documents\visual studio 2013\Projects\SOLO\ToDo.BLL\obj\Debug\ToD
 c:\Users\Tanya\documents\visual studio 2013\Projects\SOLO\ToDo.BLL\obj\Debug\ToDo.BLL.pdb
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\ToDo.BLL.dll
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\ToDo.BLL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\Ninject.dll
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\ToDo.BOL.dll
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\ToDo.DAL.dll
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\EntityFramework.dll
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\ToDo.BOL.pdb
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\ToDo.DAL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\Ninject.xml
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\EntityFramework.xml
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\obj\Debug\ToDo.BLL.csprojResolveAssemblyReference.cache
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\obj\Debug\ToDo.BLL.dll

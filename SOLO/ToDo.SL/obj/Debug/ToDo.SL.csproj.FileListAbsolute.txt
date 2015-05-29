@@ -1,6 +1,5 @@
 D:\Repositories\CourseWork\SOLO\ToDo.SL\bin\ToDo.SL.dll.config
 D:\Repositories\CourseWork\SOLO\ToDo.SL\bin\ToDo.SL.dll
 D:\Repositories\CourseWork\SOLO\ToDo.SL\bin\ToDo.SL.pdb
-D:\Repositories\CourseWork\SOLO\ToDo.SL\obj\Debug\ToDo.SL.csprojResolveAssemblyReference.cache
 D:\Repositories\CourseWork\SOLO\ToDo.SL\obj\Debug\ToDo.SL.dll
 D:\Repositories\CourseWork\SOLO\ToDo.SL\obj\Debug\ToDo.SL.pdb
