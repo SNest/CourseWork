@@ -3,3 +3,15 @@ c:\Users\Tanya\documents\visual studio 2013\Projects\SOLO\ToDo.DAL\bin\Debug\ToD
 c:\Users\Tanya\documents\visual studio 2013\Projects\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.csprojResolveAssemblyReference.cache
 c:\Users\Tanya\documents\visual studio 2013\Projects\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.dll
 c:\Users\Tanya\documents\visual studio 2013\Projects\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\ToDo.DAL.dll.config
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\ToDo.DAL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\ToDo.DAL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\EntityFramework.dll
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\ToDo.BOL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\ToDo.BOL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\EntityFramework.xml
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.csprojResolveAssemblyReference.cache
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.pdb

@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,14 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IEntityRepository.cs" />
     <Compile Include="Abstract\IEventRepository.cs" />
     <Compile Include="Abstract\INoteRepository.cs" />
     <Compile Include="Abstract\ICaseRepository.cs" />
     <Compile Include="Abstract\IUserRepository.cs" />
-    <Compile Include="Concrete\CaseRepository.cs" />
+    <Compile Include="Concrete\EFCaseRepository.cs" />
+    <Compile Include="Concrete\EFContext.cs" />
+    <Compile Include="Concrete\EFEventRepository.cs" />
+    <Compile Include="Concrete\EFNoteRepository.cs" />
+    <Compile Include="Concrete\EFUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ToDo.BOL\ToDo.BOL.csproj">
       <Project>{0b328ce6-99de-4597-910e-4929fecf10c1}</Project>

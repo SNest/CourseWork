@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Entity.cs" />
     <Compile Include="Entity\Event.cs" />
     <Compile Include="Entity\Note.cs" />
     <Compile Include="Entity\Case.cs" />
+    <Compile Include="Entity\Priority.cs" />
     <Compile Include="Entity\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
