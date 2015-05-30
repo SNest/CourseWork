@@ -2,6 +2,6 @@
 {
     interface IEntityHelper
     {
-
+        void Delete(int id);
     }
 }

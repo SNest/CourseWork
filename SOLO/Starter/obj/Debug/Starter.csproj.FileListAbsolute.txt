@@ -4,11 +4,9 @@ D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\Starter.exe
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\Starter.pdb
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\RestSharp.dll
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\ToDo.BOL.dll
-D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\ToDo.SL.dll
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\ToDo.DAL.dll
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\EntityFramework.dll
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\ToDo.BOL.pdb
-D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\ToDo.SL.pdb
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\RestSharp.xml
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\ToDo.DAL.pdb
 D:\Repositories\CourseWork\SOLO\Starter\bin\Debug\EntityFramework.xml

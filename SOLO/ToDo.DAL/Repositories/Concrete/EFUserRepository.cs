@@ -74,10 +74,10 @@ namespace ToDo.DAL.Repositories.Concrete
 
         public User GetById(int id)
         {
-            var user = new User();
+            var u = new User();
             try
             {
-                user = context.Users.Find(id);
+                u = context.Users.Find(id);
                 logger.Info("User was got from the context");
             }
             catch (Exception exception)
@@ -85,15 +85,15 @@ namespace ToDo.DAL.Repositories.Concrete
                 logger.Error("User was not got from the context");
                 logger.Trace(exception.StackTrace);
             }
-            return user;
+            return u;
         }
 
         public IEnumerable<User> GetAll()
         {
-            IEnumerable<User> users = null;
+            IEnumerable<User> us = null;
             try
             {
-                users = context.Users;
+                us = context.Users;
                 logger.Info("User was got from the context");
             }
             catch (Exception exception)
@@ -101,7 +101,7 @@ namespace ToDo.DAL.Repositories.Concrete
                 logger.Error("User was not got from the context");
                 logger.Trace(exception.StackTrace);
             }
-            return users;
+            return us;
         }
     }
 }

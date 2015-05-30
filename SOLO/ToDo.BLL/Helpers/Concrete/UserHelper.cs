@@ -7,7 +7,7 @@ using ToDo.DAL.Repositories.Abstract;
 
 namespace ToDo.BLL.Helpers.Concrete
 {
-    public class UserHelper : IEntityHelper
+    public class UserHelper : IUserHelper
     {
         private readonly IUserRepository repository;
 

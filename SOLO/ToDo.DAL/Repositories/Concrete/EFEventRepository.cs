@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using NLog;
 using ToDo.BOL.Entity;
 using ToDo.DAL.Repositories.Abstract;
 
@@ -7,64 +8,100 @@ namespace ToDo.DAL.Repositories.Concrete
 {
     public class EFEventRepository : IEventRepository
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         private readonly EFContext context = new EFContext();
 
-
-
-        public void Create(Entity entity)
+        public void Create(Event @event)
         {
-            throw new NotImplementedException();
+            try
+            {
+                context.Events.Add(@event);
+                logger.Info("Event was added to the context");
+                Save();
+            }
+            catch (Exception exception)
+            {
+                logger.Error("Event was not added to the context");
+                logger.Trace(exception.StackTrace);
+            }
         }
 
-        public void Edit(Entity entity)
+        public void Edit(int id, Event @event)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var e = GetById(id);
+                context.Entry(e).CurrentValues.SetValues(@event);
+                logger.Info("Event changes was added to the context");
+                Save();
+            }
+            catch (Exception exception)
+            {
+                logger.Error("Event changes was not added to the context");
+                logger.Trace(exception.StackTrace);
+            }
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var e = GetById(id);
+                context.Events.Remove(e);
+                logger.Info("Changes was saved to the database");
+                Save();
+            }
+            catch (Exception exception)
+            {
+                logger.Info("Changes was not saved to the database");
+                logger.Trace(exception.StackTrace);
+            }
         }
 
         public void Save()
         {
-            throw new NotImplementedException();
+            try
+            {
+                context.SaveChanges();
+                logger.Info("Event changes was saved to the database");
+            }
+            catch (Exception exception)
+            {
+                logger.Info("Event changes was not saved to the database");
+                logger.Trace(exception.StackTrace);
+            }
         }
 
-        public Entity GetById(int id)
+        public Event GetById(int id)
         {
-            throw new NotImplementedException();
+            var e = new Event();
+            try
+            {
+                e = context.Events.Find(id);
+                logger.Info("Event was got from the context");
+            }
+            catch (Exception exception)
+            {
+                logger.Error("Event was not got from the context");
+                logger.Trace(exception.StackTrace);
+            }
+            return e;
         }
 
-        public IEnumerable<Entity> GetAll()
+        public IEnumerable<Event> GetAll()
         {
-            throw new NotImplementedException();
-        }
-
-        public void Create(Event entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Edit(Event entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Event IEventRepository.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        IEnumerable<Event> IEventRepository.GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-
-        public void Edit(int id, Event @event)
-        {
-            throw new NotImplementedException();
+            IEnumerable<Event> es = null;
+            try
+            {
+                es = context.Events;
+                logger.Info("Event was got from the context");
+            }
+            catch (Exception exception)
+            {
+                logger.Error("Event was not got from the context");
+                logger.Trace(exception.StackTrace);
+            }
+            return es;
         }
     }
 }

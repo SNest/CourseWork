@@ -45,7 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\Abstract\ICaseHelper.cs" />
     <Compile Include="Helpers\Abstract\IEntityHelper.cs" />
+    <Compile Include="Helpers\Abstract\IEventHelper.cs" />
+    <Compile Include="Helpers\Abstract\INoteHelper.cs" />
+    <Compile Include="Helpers\Abstract\IUserHelper.cs" />
+    <Compile Include="Helpers\Concrete\CaseHelper.cs" />
+    <Compile Include="Helpers\Concrete\EventHelper.cs" />
+    <Compile Include="Helpers\Concrete\NoteHelper.cs" />
     <Compile Include="Infrastracture\Bindings.cs" />
     <Compile Include="Helpers\Concrete\UserHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
