@@ -1,4 +1,6 @@
-﻿using ToDo.BLL.Helpers;
+﻿using System;
+using ToDo.BLL.Helpers;
+using ToDo.BLL.Helpers.Concrete;
 using ToDo.DAL;
 using User = ToDo.BOL.Entity.User;
 
@@ -19,7 +21,9 @@ namespace Starter
             //response.ToString();
 
             var us = new UserHelper();
-            us.CreateUser(new User(){FirstName = "Ivan", LastName = "Petrov", Email = "adfgadg", Password = "sagadg"});
+            us.Create(new User(){FirstName = "Ivan", LastName = "Petrov", Email = "adfgadg", Password = "sagadg"});
+           
+            Console.Write(us.GetById(2));
         }
     }
 }

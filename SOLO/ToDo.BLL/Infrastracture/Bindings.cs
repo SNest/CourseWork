@@ -1,6 +1,6 @@
 ﻿using Ninject.Modules;
-using ToDo.DAL.Abstract;
-using ToDo.DAL.Concrete;
+using ToDo.DAL.Repositories.Abstract;
+using ToDo.DAL.Repositories.Concrete;
 
 namespace ToDo.BLL.Infrastracture
 {

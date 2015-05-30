@@ -15,3 +15,6 @@ D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Repositories\CourseWork\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.csprojResolveAssemblyReference.cache
 D:\Repositories\CourseWork\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.dll
 D:\Repositories\CourseWork\SOLO\ToDo.DAL\obj\Debug\ToDo.DAL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\NLog.config
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\NLog.dll
+D:\Repositories\CourseWork\SOLO\ToDo.DAL\bin\Debug\NLog.xml

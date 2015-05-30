@@ -38,6 +38,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\packages\NLog.3.2.1\lib\net45\NLog.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -48,20 +51,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IEntityRepository.cs" />
-    <Compile Include="Abstract\IEventRepository.cs" />
-    <Compile Include="Abstract\INoteRepository.cs" />
-    <Compile Include="Abstract\ICaseRepository.cs" />
-    <Compile Include="Abstract\IUserRepository.cs" />
-    <Compile Include="Concrete\EFCaseRepository.cs" />
-    <Compile Include="Concrete\EFContext.cs" />
-    <Compile Include="Concrete\EFEventRepository.cs" />
-    <Compile Include="Concrete\EFNoteRepository.cs" />
-    <Compile Include="Concrete\EFUserRepository.cs" />
+    <Compile Include="Repositories\Abstract\IEntityRepository.cs" />
+    <Compile Include="Repositories\Abstract\IEventRepository.cs" />
+    <Compile Include="Repositories\Abstract\INoteRepository.cs" />
+    <Compile Include="Repositories\Abstract\ICaseRepository.cs" />
+    <Compile Include="Repositories\Abstract\IUserRepository.cs" />
+    <Compile Include="Repositories\Concrete\EFCaseRepository.cs" />
+    <Compile Include="Repositories\Concrete\EFContext.cs" />
+    <Compile Include="Repositories\Concrete\EFEventRepository.cs" />
+    <Compile Include="Repositories\Concrete\EFNoteRepository.cs" />
+    <Compile Include="Repositories\Concrete\EFUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

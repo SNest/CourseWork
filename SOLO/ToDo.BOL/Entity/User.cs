@@ -18,6 +18,15 @@ namespace ToDo.BOL.Entity
 
         public virtual ICollection<Event> Events { get; set; }
         public virtual ICollection<Case> Cases { get; set; }
-        public virtual ICollection<Note> Notes { get; set; } 
+        public virtual ICollection<Note> Notes { get; set; }
+
+        public User()
+        {
+            Events = new List<Event>();
+
+            Cases = new List<Case>();
+
+            Notes = new List<Note>();
+        }
     }
 }

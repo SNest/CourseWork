@@ -20,3 +20,6 @@ D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\EntityFramework.xml
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\obj\Debug\ToDo.BLL.csprojResolveAssemblyReference.cache
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\obj\Debug\ToDo.BLL.dll
 D:\Repositories\CourseWork\SOLO\ToDo.BLL\obj\Debug\ToDo.BLL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\NLog.config
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\NLog.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Debug\NLog.xml

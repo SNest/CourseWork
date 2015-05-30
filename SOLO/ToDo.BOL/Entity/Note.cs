@@ -20,7 +20,7 @@ namespace ToDo.BOL.Entity
         [ForeignKey("EventId")]
         public virtual Event Event { get; set; }
 
-        public int CaseId { get; set; }
+        public int? CaseId { get; set; }
 
         [ForeignKey("CaseId")]
         public virtual Case Case { get; set; }

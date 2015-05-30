@@ -17,3 +17,7 @@ D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Debug\EntityFramework.xml
 D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Repositories\CourseWork\SOLO\ToDo.BOL\obj\Debug\ToDo.BOL.dll
 D:\Repositories\CourseWork\SOLO\ToDo.BOL\obj\Debug\ToDo.BOL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\obj\Debug\ToDo.BOL.csprojResolveAssemblyReference.cache
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Debug\NLog.config
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Debug\NLog.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Debug\NLog.xml
