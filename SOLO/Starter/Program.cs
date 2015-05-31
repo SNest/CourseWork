@@ -25,13 +25,15 @@ namespace Starter
 
             //var us = new UserHelper();
 
-            //Console.Write(us.GetById(4).Email);
+            //Console.WriteLine(us.GetById(4).Email);
             //User u = us.GetById(4);
-            //u.Email = "RRR";
+            //u.Email = "DDDD";
             //us.Edit(4, u);
 
-            //Console.Write(us.GetById(4).Email);
+            //Console.WriteLine(us.GetById(4).Email);
             //Console.ReadKey();
+
+            //us.Create(new User(){FirstName = "Gosha", Email = "dfgdg", Password = "dfhhd"});
         }
     }
 }

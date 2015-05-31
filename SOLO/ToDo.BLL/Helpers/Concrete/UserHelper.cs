@@ -33,7 +33,9 @@ namespace ToDo.BLL.Helpers.Concrete
 
         public User GetById(int id)
         {
-            return repository.GetById(id);
+            User u = repository.GetById(id);
+            string t = u.Email;
+            return u;
         }
 
         public IEnumerable<User> GetAll()

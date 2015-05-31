@@ -26,7 +26,11 @@ namespace ToDo.SL
         public User GetById(string id)
         {
             //return new User() { FirstName = "Vasya", Email = "fff", Password = "pass" };
-            return uh.GetById(Convert.ToInt32(id));
+
+            User u = uh.GetById(Convert.ToInt32(id));
+
+            string t = u.Email;
+            return u;
         }
 
         public IEnumerable<User> GetAll()
