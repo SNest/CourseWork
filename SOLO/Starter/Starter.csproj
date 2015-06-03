@@ -40,6 +40,10 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="RestSharp">
       <HintPath>..\packages\RestSharp.105.1.0\lib\net451\RestSharp.dll</HintPath>
     </Reference>
@@ -72,6 +76,10 @@
     <ProjectReference Include="..\ToDo.DAL\ToDo.DAL.csproj">
       <Project>{9d909ffd-19c8-4e2e-ac5c-0053780dcfe5}</Project>
       <Name>ToDo.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToDo.PL.MVC\ToDo.PL.MVC.csproj">
+      <Project>{fac40862-d978-4c95-8b81-3426cc4e5f0b}</Project>
+      <Name>ToDo.PL.MVC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

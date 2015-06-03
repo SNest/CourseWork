@@ -90,16 +90,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ToDo.BLL\ToDo.BLL.csproj">
-      <Project>{fe14aede-f068-49b0-8722-48e7f9efa9c1}</Project>
-      <Name>ToDo.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ToDo.BOL\ToDo.BOL.csproj">
-      <Project>{0b328ce6-99de-4597-910e-4929fecf10c1}</Project>
-      <Name>ToDo.BOL</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

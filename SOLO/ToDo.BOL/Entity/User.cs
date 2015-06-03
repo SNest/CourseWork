@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ToDo.BOL.Entity
 {
+    
     public class User : Entity
     {
         [Required]

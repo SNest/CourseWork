@@ -1,0 +1,13 @@
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\bin\Debug\ToDo.PL.WPF.exe.config
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\bin\Debug\ToDo.PL.WPF.exe
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\bin\Debug\ToDo.PL.WPF.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\ToDo.PL.WPF.csprojResolveAssemblyReference.cache
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\MainWindow.baml
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\MainWindow.g.cs
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\App.g.cs
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\ToDo.PL.WPF_MarkupCompile.cache
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\ToDo.PL.WPF.g.resources
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\ToDo.PL.WPF.Properties.Resources.resources
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\ToDo.PL.WPF.csproj.GenerateResource.Cache
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\ToDo.PL.WPF.exe
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Debug\ToDo.PL.WPF.pdb

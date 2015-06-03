@@ -1,9 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using RestSharp;
-using ToDo.BLL.Helpers;
-using ToDo.BLL.Helpers.Concrete;
-using ToDo.DAL;
-using User = ToDo.BOL.Entity.User;
+using ToDo.BOL.Entity;
+using Newtonsoft.Json;
 
 namespace Starter
 {
@@ -12,28 +12,54 @@ namespace Starter
         static void Main()
         {
             Console.ReadKey();
-            var client = new RestClient();
-            client.BaseUrl = new Uri("http://localhost:6309/UserHelperService.svc/api/user/get/4");
+            //GetUserById(5);
+            //EditUser(5, new User(){FirstName = "IVAN", LastName = "TIHOMIROV"});
 
-            var request = new RestRequest();
-
-            IRestResponse response = client.Execute(request);
-
-            Console.WriteLine(response.Content);
-
+            IEnumerable<User> li= GetAllUsers();
+            User u = GetUserById(5);
             Console.ReadKey();
+        }
 
-            //var us = new UserHelper();
+        void CreateUser()
+        {
+            
+        }
 
-            //Console.WriteLine(us.GetById(4).Email);
-            //User u = us.GetById(4);
-            //u.Email = "DDDD";
-            //us.Edit(4, u);
+        static private void EditUser(int id, User user)
+        {
+            var client = new RestClient("http://localhost:14846");
+            client.FollowRedirects = false;
+            var request = new RestRequest("api/UserHelperApi", Method.POST);
+            request.RequestFormat = DataFormat.Json;
+            request.AddParameter("id", id);
+            request.AddBody(request.JsonSerializer.Serialize(user));
+            client.Execute(request);
+        }
 
-            //Console.WriteLine(us.GetById(4).Email);
-            //Console.ReadKey();
+        void DeleteUser(int id)
+        {
+            
+        }
 
-            //us.Create(new User(){FirstName = "Gosha", Email = "dfgdg", Password = "dfhhd"});
+        static User GetUserById(int id)
+        {
+            var client = new RestClient("http://localhost:14846");
+    
+            var request = new RestRequest("api/UserHelperApi/{id}", Method.GET);
+            request.AddParameter("id", id);
+            //var queryResult = client.Execute<User>(request).Data;
+            IRestResponse response = client.Execute(request);
+            return JsonConvert.DeserializeObject<User>(response.Content);
+        }
+
+        static IEnumerable<User> GetAllUsers()
+        {
+            var client = new RestClient("http://localhost:14846");
+            var request = new RestRequest("api/UserHelperApi", Method.GET);
+            var queryResult = client.Execute<List<User>>(request).Data;
+            //return queryResult.ToList();
+            IRestResponse response = client.Execute(request);
+            return JsonConvert.DeserializeObject<IEnumerable<User>>(response.Content);
         }
     }
 }
