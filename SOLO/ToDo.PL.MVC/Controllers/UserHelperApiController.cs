@@ -18,20 +18,18 @@ namespace ToDo.PL.MVC.Controllers
         // GET api/<controller>/5
         public User Get(int id)
         {
-            User u = uh.GetById(id);
-            return u;
+            return uh.GetById(id);
         }
-
         // POST api/<controller>
-        public void Post(int id, [FromBody] User user)
-        {
-            uh.Edit(id, user);
-        }
-
-        // PUT api/<controller>/5
-        public void Put([FromBody] User user)
+        public void Post([FromBody] User user)
         {
             uh.Create(user);
+        }
+
+        // PUT api/<controller>
+        public void Put([FromBody] User user)
+        {
+            uh.Edit(user);
         }
 
         // DELETE api/<controller>/5

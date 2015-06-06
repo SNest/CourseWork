@@ -21,9 +21,9 @@ namespace ToDo.BLL.Helpers.Concrete
             repository.Create(@case);
         }
 
-        public void Edit(int id, Case @case)
+        public void Edit(Case @case)
         {
-            repository.Edit(id, @case);
+            repository.Edit(@case);
         }
 
         public void Delete(int id)

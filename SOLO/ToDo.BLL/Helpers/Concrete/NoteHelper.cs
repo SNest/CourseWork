@@ -21,9 +21,9 @@ namespace ToDo.BLL.Helpers.Concrete
             repository.Create(note);
         }
 
-        public void Edit(int id, Note note)
+        public void Edit(Note note)
         {
-            repository.Edit(id, note);
+            repository.Edit(note);
         }
 
         public void Delete(int id)

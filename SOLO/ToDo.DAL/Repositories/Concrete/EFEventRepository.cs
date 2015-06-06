@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using NLog;
 using ToDo.BOL.Entity;
 using ToDo.DAL.Repositories.Abstract;
@@ -26,12 +27,11 @@ namespace ToDo.DAL.Repositories.Concrete
             }
         }
 
-        public void Edit(int id, Event @event)
+        public void Edit(Event @event)
         {
             try
             {
-                var e = GetById(id);
-                context.Entry(e).CurrentValues.SetValues(@event);
+                context.Entry(@event).State = EntityState.Modified; 
                 logger.Info("Event changes was added to the context");
                 Save();
             }

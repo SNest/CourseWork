@@ -7,7 +7,7 @@ namespace ToDo.BLL.Helpers.Abstract
     {
         void Create(Case @case);
 
-        void Edit(int id, Case @case);
+        void Edit(Case @case);
 
         Case GetById(int id);
 

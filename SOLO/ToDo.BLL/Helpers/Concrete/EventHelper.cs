@@ -21,9 +21,9 @@ namespace ToDo.BLL.Helpers.Concrete
             repository.Create(@event);
         }
 
-        public void Edit(int id, Event @event)
+        public void Edit(Event @event)
         {
-            repository.Edit(id, @event);
+            repository.Edit(@event);
         }
 
         public void Delete(int id)

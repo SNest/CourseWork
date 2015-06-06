@@ -7,7 +7,7 @@ namespace ToDo.DAL.Repositories.Abstract
     {
         void Create(Event @event);
 
-        void Edit(int id, Event @event);
+        void Edit(Event @event);
 
         Event GetById(int id);
 

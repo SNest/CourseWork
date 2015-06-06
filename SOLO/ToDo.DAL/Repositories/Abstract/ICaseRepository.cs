@@ -7,7 +7,7 @@ namespace ToDo.DAL.Repositories.Abstract
     {
         void Create(Case @case);
 
-        void Edit(int id, Case @case);
+        void Edit(Case @case);
 
         Case GetById(int id);
 

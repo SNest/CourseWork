@@ -7,7 +7,7 @@ namespace ToDo.BLL.Helpers.Abstract
     {
         void Create(User user);
 
-        void Edit(int id, User user);
+        void Edit(User user);
 
         User GetById(int id);
 

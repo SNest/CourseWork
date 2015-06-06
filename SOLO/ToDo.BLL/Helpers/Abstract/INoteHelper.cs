@@ -7,7 +7,7 @@ namespace ToDo.BLL.Helpers.Abstract
     {
         void Create(Note note);
 
-        void Edit(int id, Note note);
+        void Edit(Note note);
 
         Note GetById(int id);
 
