@@ -17,8 +17,9 @@ namespace Starter
             u.FirstName = "ARTEM";
             EditUser(u);
 
-            User use = GetUserById(10);
-            DeleteUser(use.Id);
+            Case ca = GetCaseById(1);
+            //User use = GetUserById(10);
+            //DeleteUser(use.Id);
 
             //CreateUser(new User() { FirstName = "IVAN", LastName = "TIHOMIROV", Email = "sfga", Password = "asdg"});
             Console.ReadKey();
@@ -52,6 +53,14 @@ namespace Starter
             request.AddParameter("id", id);
             IRestResponse response = client.Execute(request);
             return JsonConvert.DeserializeObject<User>(response.Content);
+        }
+
+        static Case GetCaseById(int id)
+        {
+            RestRequest request = new RestRequest("CaseHelperApi/{id}", Method.GET);
+            request.AddParameter("id", id);
+            IRestResponse response = client.Execute(request);
+            return JsonConvert.DeserializeObject<Case>(response.Content);
         }
 
         static IEnumerable<User> GetAllUsers()

@@ -7,7 +7,7 @@ using ToDo.DAL.Repositories.Abstract;
 
 namespace ToDo.BLL.Helpers.Concrete
 {
-     public class CaseHelper : ICaseHelper
+    public class CaseHelper : ICaseHelper
     {
         private readonly ICaseRepository repository;
 

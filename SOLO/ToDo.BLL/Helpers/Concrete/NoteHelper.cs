@@ -7,7 +7,7 @@ using ToDo.DAL.Repositories.Abstract;
 
 namespace ToDo.BLL.Helpers.Concrete
 {
-    class NoteHelper : INoteHelper
+    public class NoteHelper : INoteHelper
     {
         private readonly INoteRepository repository;
 
