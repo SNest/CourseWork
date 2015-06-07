@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MalikProject" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Repositories\\CourseWork\\SOLO\\ToDo\.PL\.MVC\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Repositories\\CourseWork\\SOLO\\ToDo\.PL\.MVC\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DBConnection-Web.config Connection String" description="" value="Data Source=tcp:ti0yrfd186.database.windows.net,1433;Initial Catalog=MalikProject_db;User Id=Lola@ti0yrfd186;Password=TEMPmonkey321" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Repositories\\CourseWork\\SOLO\\ToDo\.PL\.MVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:ti0yrfd186.database.windows.net,1433;Initial Catalog=MalikProject_db;User ID=Lola@ti0yrfd186;Password=TEMPmonkey321" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Repositories\\CourseWork\\SOLO\\ToDo\.PL\.MVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

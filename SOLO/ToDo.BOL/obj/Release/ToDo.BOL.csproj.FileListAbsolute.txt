@@ -1,0 +1,13 @@
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\NLog.config
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\ToDo.BOL.dll.config
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\ToDo.BOL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\ToDo.BOL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\EntityFramework.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\EntityFramework.SqlServer.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\NLog.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\EntityFramework.xml
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\EntityFramework.SqlServer.xml
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\bin\Release\NLog.xml
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\obj\Release\ToDo.BOL.csprojResolveAssemblyReference.cache
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\obj\Release\ToDo.BOL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BOL\obj\Release\ToDo.BOL.pdb

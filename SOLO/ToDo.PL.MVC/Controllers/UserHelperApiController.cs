@@ -8,34 +8,34 @@ namespace ToDo.PL.MVC.Controllers
 {
     public class UserHelperApiController : ApiController
     {
-        private readonly UserHelper uh = new UserHelper();
+        private readonly UserHelper userHelper = new UserHelper();
         // GET api/<controller>
         public IEnumerable<User> Get()
         {
-           return uh.GetAll().ToList();
+           return userHelper.GetAll().ToList();
         }
 
         // GET api/<controller>/5
         public User Get(int id)
         {
-            return uh.GetById(id);
+            return userHelper.GetById(id);
         }
         // POST api/<controller>
         public void Post([FromBody] User user)
         {
-            uh.Create(user);
+            userHelper.Create(user);
         }
 
         // PUT api/<controller>
         public void Put([FromBody] User user)
         {
-            uh.Edit(user);
+            userHelper.Edit(user);
         }
 
         // DELETE api/<controller>/5
         public void Delete(int id)
         {
-            uh.Delete(id);
+            userHelper.Delete(id);
         }
     }
 }

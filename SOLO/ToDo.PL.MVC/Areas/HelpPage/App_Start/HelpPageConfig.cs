@@ -10,7 +10,7 @@ using System.Web.Http;
 using System.Web.Http.OData;
 #endif
 
-namespace ToDo.PL.MVC.Areas.HelpPage
+namespace ToDo.PL.MVC.Areas.HelpPage.App_Start
 {
     /// <summary>
     /// Use this class to customize the Help Page.

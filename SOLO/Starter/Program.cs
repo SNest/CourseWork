@@ -13,11 +13,11 @@ namespace Starter
         {
             Console.ReadKey();
             //GetUserById(5);
-            User u = GetUserById(5);
-            u.FirstName = "ARTEM";
+            User u = GetUserById(12);
+            u.FirstName = "INOKENTIY";
             EditUser(u);
 
-            Case ca = GetCaseById(1);
+            
             //User use = GetUserById(10);
             //DeleteUser(use.Id);
 

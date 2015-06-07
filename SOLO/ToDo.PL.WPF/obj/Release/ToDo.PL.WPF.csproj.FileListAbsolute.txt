@@ -1,0 +1,8 @@
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Release\ToDo.PL.WPF.csprojResolveAssemblyReference.cache
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Release\MainWindow.baml
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Release\MainWindow.g.cs
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Release\App.g.cs
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Release\ToDo.PL.WPF_MarkupCompile.cache
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Release\ToDo.PL.WPF.g.resources
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Release\ToDo.PL.WPF.Properties.Resources.resources
+D:\Repositories\CourseWork\SOLO\ToDo.PL.WPF\obj\Release\ToDo.PL.WPF.csproj.GenerateResource.Cache

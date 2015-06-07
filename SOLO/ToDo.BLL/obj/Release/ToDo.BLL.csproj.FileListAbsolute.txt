@@ -1,0 +1,16 @@
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\NLog.config
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\ToDo.BLL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\ToDo.BLL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\Ninject.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\NLog.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\ToDo.BOL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\ToDo.DAL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\EntityFramework.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\ToDo.BOL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\ToDo.DAL.pdb
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\Ninject.xml
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\NLog.xml
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\bin\Release\EntityFramework.xml
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\obj\Release\ToDo.BLL.csprojResolveAssemblyReference.cache
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\obj\Release\ToDo.BLL.dll
+D:\Repositories\CourseWork\SOLO\ToDo.BLL\obj\Release\ToDo.BLL.pdb
